@@ -33,6 +33,7 @@ header > h1 {
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 2em;
+    
 }
 header > p {
     color: white;
@@ -107,8 +108,16 @@ main img.imagem {
 }
 .video-destaque{
     background-color: var(--cor-destaque);
-    width: 94%;
     padding:30px;
+    position: relative;
+    padding-bottom: 56%;
+}
+.video-destaque > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 .container{
     background-color: #beeed3;
