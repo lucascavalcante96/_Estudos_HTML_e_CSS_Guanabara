@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    background-image: url(/modulo3/exercicios/imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+main{
+    background-color: #fff;
+    margin: auto;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    
+}
