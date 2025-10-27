@@ -69,12 +69,14 @@ section{
     background-image: url(/modulo3/desafios/cordel/imagens/high-anglebeautiful-love-letter.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 
 }
 .destaque2{
     background-image: url(/modulo3/desafios/cordel/imagens/joaninha.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 footer{
     background-color: #000;
