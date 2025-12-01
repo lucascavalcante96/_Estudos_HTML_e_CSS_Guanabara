@@ -10,8 +10,12 @@
 <body>
     <h1>Outros formularios</h1>
     <fieldset>
-        <legend>Dados</legend>
+        <legend>Dados Pessoais</legend>
         <form action="formularios.js" method="get" autocomplete="on">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="Nome" id="inome" required placeholder="Digite seu nome" minlength="3">
+            </p>
             <p>
                 <label for="iemail">E-mail</label>
                 <input type="email" name="email" id="iemail" required autocomplete="email">
@@ -21,7 +25,21 @@
                 <input type="tel" name="tel" id="itel" autocomplete="tel" required
                     pattern="^\(\d{2}\)\d{4,5}-\d{4}$"><!--Aqui é uma expressão regular ^[0-9]{4}-[0-9]{4}$ (RegEx) -->
             </p>
+            <p>
+            <p>Sexo</p>
+            <input type="radio" name="sexo" id="imasculino"><label for="imasculino">Masculino</label>
+            <input type="radio" name="sexo" id="ifeminino"> <label for="ifeminino">Feminino</label>
+            </p>
     </fieldset>
+    <fieldset>
+        <legend>Esportes favoritos</legend>
+        <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label><br>
+        <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label><br>
+        <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tenis</label><br>
+        <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol">Volei</label><br>
+        <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label>
+    </fieldset>
+
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
