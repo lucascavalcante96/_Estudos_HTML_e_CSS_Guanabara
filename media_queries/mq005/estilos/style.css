@@ -76,16 +76,6 @@ nav ul li a:hover{
         background-color: black;
         color: white;
         
-    }
-    article{
-        margin-top: 15px;
-    }
-    article main{
-        background-color: white;
-        width: 95vw;
-        margin: auto;
-        border-radius: 5px;
-        padding-bottom: 20px;
     }  
     #icone{
         display: none;
@@ -93,5 +83,13 @@ nav ul li a:hover{
     #itens{
         margin: 0;
         padding: 0;
-    }     
+    }
+    article{
+        width: 768px;
+        margin: auto;
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }   
 }
