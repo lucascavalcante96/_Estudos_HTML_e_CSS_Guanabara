@@ -9,7 +9,7 @@
     <title>Menu Responsivo</title>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span class="material-icons" id="icone" onclick="clickMenu()">menu</span>
@@ -71,6 +71,14 @@
                 itens.style.display = "block"
             }
 
+        }
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
         }
     </script>
 </body>
