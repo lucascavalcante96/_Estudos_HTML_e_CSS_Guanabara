@@ -20,12 +20,12 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 300px;
     height: 500px;
     border-radius: 20px;
+    transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
 }
 section#login > div#imagem{
@@ -38,6 +38,80 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.8em;
+}
+form > .campo{
+    background-color: #5f2c82;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+.campo > span{
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+.campo > input{
+    background-color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
+.campo > input:focus-within{
+    background-color: white;
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #2d6462;
+}
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding-top: 7px;
+    margin-top: 5px;
+}
+form > a.botao > span {
+    font-size: 0.8em;
+}
+form > a.botao:hover{
+    background-color: #6cd3cf;
+    
+}
+.campo{
+    color: white;
+    
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
@@ -45,15 +119,16 @@ section#login > div#formulario{
     }
     section#login{
         width: 90vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 30%;
         height: 100%;
     }
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 70%;
     }
 }
@@ -64,6 +139,7 @@ section#login > div#formulario{
     }
     section#login{
         width: 990px;
+        height: 350px;
     }
     section#login > div#imagem{
         float: left;
@@ -74,4 +150,8 @@ section#login > div#formulario{
         float: right;
         width: 50%;
     }
+    div#formulario > p{
+    font-size: 1.2em;
+    margin: 20px 0px;
+}
 }
