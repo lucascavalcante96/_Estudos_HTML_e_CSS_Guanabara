@@ -1,0 +1,58 @@
+html{
+    background-color: black;
+}
+div.item{
+    background-color: rgb(26, 121, 38);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+div.between{
+    display: flex;
+    background-color: bisque;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+div.center{
+    display: flex;
+    background-color: bisque;
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+div.end{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    background-color: bisque;
+}
+div.start{
+    display: flex;
+    background-color: bisque;
+    margin-bottom: 10px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+div.around{
+    display: flex;
+    margin-bottom: 10px;
+    background-color: bisque;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+div.evenly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    background-color: bisque;
+}
