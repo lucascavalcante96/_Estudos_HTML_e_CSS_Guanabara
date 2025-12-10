@@ -1,0 +1,12 @@
+div.container{
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.item{
+    background-color: rgb(26, 121, 38);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
