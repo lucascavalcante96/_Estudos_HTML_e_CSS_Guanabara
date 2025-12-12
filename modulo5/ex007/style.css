@@ -40,7 +40,7 @@ div.container3{
     display: flex;
     flex-flow: row nowrap;
     background-color: crimson;
-    
+    margin-bottom: 5px;
 }
 div.item3{
     border: 1px solid black;
@@ -57,7 +57,7 @@ div.container4{
     flex-flow: row nowrap;
     background-color: lightgreen;
     flex-basis: 250px;
-    margin-bottom: 5px;
+    
 }
 div#i10{
     flex-grow: 3;
