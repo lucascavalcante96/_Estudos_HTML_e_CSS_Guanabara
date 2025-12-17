@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template: 100px 100px 100px / auto auto auto;
+    grid-auto-rows: 100px;
+    border: 3px solid blue;
+    place-items: stretch center;
+    place-content: start end;
+}
+.item{
+    border: 3px solid red;
+    padding: 5px;
+}
