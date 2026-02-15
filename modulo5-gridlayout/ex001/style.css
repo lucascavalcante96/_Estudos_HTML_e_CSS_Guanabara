@@ -1,9 +1,11 @@
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 100px 100px 100px;
-    gap: 20px;
+.container {
+  height: 450px;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px 100px 100px;
+  gap: 20px;
 }
-.item{
-    border: 1px dotted green;
+.item {
+  border: 3px solid green;
 }
