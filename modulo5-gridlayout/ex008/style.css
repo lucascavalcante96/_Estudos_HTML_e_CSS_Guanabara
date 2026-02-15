@@ -10,7 +10,7 @@
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 5;
-  background-color: yellow;
+  background-color: red;
 }
 .caixa2 {
   grid-column-start: 1;
